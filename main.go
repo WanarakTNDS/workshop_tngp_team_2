@@ -8,6 +8,11 @@ func minus(a int, b int) int {
 	return ans
 }
 
+func mod(a, b int) int {
+	result := a % b
+	return result
+}
+
 func main() {
 	fmt.Println("hello develop")
 
@@ -20,5 +25,6 @@ func multiply(a int, b int) int {
 }
 
 func Sum(a, b int) int {
+	fmt.Printf("a + b = 40 + 50 = %d", mod(40, 50))
 	return a + b
 }
