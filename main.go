@@ -3,7 +3,9 @@ package main
 import "fmt"
 
 func minus(a int, b int) int {
-	return a - b
+	ans := a - b
+	fmt.Printf("a - b = %d - %d = %d", a, b, ans)
+	return ans
 }
 
 func main() {
