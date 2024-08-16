@@ -10,5 +10,5 @@ func mod(a, b int) int {
 func main() {
 	fmt.Println("hello develop")
 
-	fmt.Printf("Output: a + b = 40 + 50 = %d", mod(40, 50))
+	fmt.Printf("a + b = 40 + 50 = %d", mod(40, 50))
 }
