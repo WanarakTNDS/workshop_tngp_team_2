@@ -31,6 +31,9 @@ func Sum(a, b int) int {
 }
 
 func devide(a, b int) int {
+	if b == 0 {
+		return 0
+	}
 	result := a / b
 	return result
 }
